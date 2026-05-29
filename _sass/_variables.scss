@@ -38,16 +38,27 @@ $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
 
-// NYU colors
-$nyu-violet-color: #57068c !default;
-$nyu-ultra-violet-color: #8900e1 !default;
-$nyu-deep-violet-color: #330662 !default;
+// UGA brand colors
+$uga-glory-red-color: #E4002B !default;
+$uga-bulldog-red-color: #BA0C2F !default;
+$uga-arch-black-color: #000000 !default;
+$uga-chapel-bell-white-color: #FFFFFF !default;
+$uga-lake-herrick-color: #00A3AD !default;
+$uga-hedges-color: #B4BD00 !default;
+$uga-olympic-color: #004E60 !default;
+$uga-odyssey-color: #C8D8EB !default;
+$uga-light-neutral-color: #F6F7F8 !default;
+
+// Legacy variable names retained for existing theme code; values now map to UGA.
+$nyu-violet-color: $uga-glory-red-color !default;
+$nyu-ultra-violet-color: $uga-bulldog-red-color !default;
+$nyu-deep-violet-color: $uga-glory-red-color !default;
 $nyu-custom-deep-violet-color: #1d1c1c !default;
-$nyu-medium-violet-1-color: #702b9d !default;
-$nyu-medium-violet-2-color: #7b5aa6 !default;
-$nyu-medium-violet-3-color: #cc66ff !default;
-$nyu-light-violet-1-color: #ab82c5 !default;
-$nyu-light-violet-2-color: #eee6f3 !default;
+$nyu-medium-violet-1-color: $uga-bulldog-red-color !default;
+$nyu-medium-violet-2-color: $uga-olympic-color !default;
+$nyu-medium-violet-3-color: $uga-odyssey-color !default;
+$nyu-light-violet-1-color: $uga-lake-herrick-color !default;
+$nyu-light-violet-2-color: #E8F4F5 !default;
 
 
 // Global typography (100% ≈ browser default, typically 16px)
@@ -55,5 +66,5 @@ $html-font-size-percent: 112.5% !default; // 112.5% → ~18px body text at defau
 
 // Theme colors
 
-$code-bg-color-light:     rgba($purple-color, 0.05);
+$code-bg-color-light:     rgba($uga-glory-red-color, 0.05);
 $code-bg-color-dark:      #2c3237 !default;

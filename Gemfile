@@ -13,7 +13,8 @@ group :jekyll_plugins do
     gem 'jekyll-paginate-v2'
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
-    gem 'jekyll-target-blank'
+    # Disabled so external links open in the current tab in the in-app browser.
+    # gem 'jekyll-target-blank'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
     # gem 'mini_racer'  # Commented out due to compatibility issues on Apple Silicon

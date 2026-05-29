@@ -3,27 +3,68 @@ layout: about_custom
 title: About
 permalink: /
 subtitle: |
-  Simons Center Postdoctoral Fellow @ NYU
-  Office: Silver Building 1022I, 24 Waverly Place, New York, 10003
-  Contact: <a href="mailto:rw3594@nyu.edu">rw3594[at]nyu[dot]edu</a> or <a href="mailto:wang.rui@nyu.edu">wang.rui[at]nyu[dot]edu</a>
+  Professor and GRA Eminent Scholar
+  Mathematics; Biochemistry & Molecular Biology
+  University of Georgia, Cedar Street Building D, Athens, GA 30602, USA
+  Contact: <a href="mailto:guowei.wei@uga.edu">guowei.wei[at]uga[dot]edu</a>
 
 profile:
   align: right
-  image: RW_nologo.jpg
-  image_circular: True # crops the image to make it circular
+  image: guowei-profile.jpg
+  image_circular: True
   describe: >
-    <p><a href="https://wp.nyu.edu/sccpc/">Simons Center for Computational Physical Chemistry</a></p> 
-    <p><a href="https://www.nyu.edu/">New York University</a></p> 
-    <p><a href="https://www.google.com/maps/place/Silver+Center+for+Arts+and+Science/@40.7300976,-73.9982679,17z/data=!3m1!5s0x89c259909021222b:0xb9bb6b98ab8feefb!4m14!1m7!3m6!1s0x89c25990990b5405:0xadad3d11ec59c6b4!2sSilver+Center+for+Arts+and+Science!8m2!3d40.7300976!4d-73.995693!16zL20vMDZ5cng3!3m5!1s0x89c25990990b5405:0xadad3d11ec59c6b4!8m2!3d40.7300976!4d-73.995693!16zL20vMDZ5cng3?entry=ttu">Office: Silver Center 1022I</a></p> 
-    <p><a href="mailto:rw3594@nyu.edu">Email: rw3594[at]nyu[dot]edu</a></p> 
-    <p><a href="mailto:wang.rui@nyu.edu">Alternative Email: wang.rui[at]nyu[dot]edu</a></p> 
+    <p><a href="https://users.math.msu.edu/users/weig/">MSU homepage archive</a></p>
+    <p><a href="https://weilab.math.msu.edu/">Wei Lab</a></p>
+    <p><a href="https://scholar.google.com/citations?user=If_mksUAAAAJ&hl=en">Google Scholar</a></p>
+    <p><a href="https://github.com/WeilabMSU">Group GitHub</a></p>
+    <p><a href="mailto:guowei.wei@uga.edu">Email: guowei.wei[at]uga[dot]edu</a></p>
 
-research_interests: true  # nested list above News; data in _data/research_interests.yml
-news: true  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+research_interests: true
+news: false
+selected_papers: false
+social: false
 ---
-I am currently an Independent Postdoctoral Fellow at [Simons Center for Computational Physical Chemistry (SCCPC)](https://wp.nyu.edu/sccpc/) at [New York University](https://www.nyu.edu/). Prior to this, I was a Visiting Assistant Professor in the Department of Mathematics at Michigan State University. I hold a Bachelor's Degree from Xi'an Jiaotong University in Mathematics and Applied Mathematics, and an Applied Mathematics Ph.D. from Michigan State University under the supervision from [Prof. Guowei Wei](https://users.math.msu.edu/users/weig/).
+I am Professor and GRA Eminent Scholar in Mathematics and Biochemistry & Molecular Biology at the University of Georgia. My work develops mathematical foundations for biosciences, artificial intelligence, data science, drug discovery, bioinformatics, quantitative systems pharmacology, mathematical virology, biomedical imaging, high-order interface methods, nano modeling, quantum kinetic theory, wavelet local spectral methods, and dynamical systems.
 
-<!-- My previous research mainly focused on developing mathematical tools for descriptive and predictive modeling of biomolecules and their interactions. Currently, my interests include computational topology and graphs, mathematical modeling of infectious diseases, RNA motif design, drug discovery, machine learning, and genomics analysis. -->
-My research focuses on developing innovative mathematical methods, particularly in topological and geometric data analysis (TDA/GDA), to understand various biological processes. Combined with machine learning (ML) models, this understanding enables rapid, data-driven responses to emerging diseases by providing predictive insights for identifying effective therapeutic candidates in early-stage drug discovery. My interests include computational topology and graphs, mathematical modeling of infectious diseases, mathematical virology, RNA motif design, protein-peptide docking prediction, and genomics analysis.
+<section class="about-appointments cv">
+  <h2>Appointments and Affiliations</h2>
+  <ul class="card-text font-weight-light list-group list-group-flush">
+    <li class="list-group-item">
+      <div class="row align-items-start">
+        <div class="col-12 col-md-auto text-center cv-year-col">
+          <div class="cv-year-wrap">
+            <span class="badge font-weight-bold danger-color-dark cv-year-badge">Aug 2026 - Present</span>
+          </div>
+        </div>
+        <div class="col mt-2 mt-md-0">
+          <h6 class="title font-weight-bold ml-1 ml-md-4">Professor and GRA Eminent Scholar</h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">University of Georgia, Athens, GA</h6>
+          <ul class="items">
+            <li><span class="item">Mathematics</span></li>
+            <li><span class="item">Biochemistry & Molecular Biology</span></li>
+          </ul>
+        </div>
+      </div>
+    </li>
+    <li class="list-group-item">
+      <div class="row align-items-start">
+        <div class="col-12 col-md-auto text-center cv-year-col">
+          <div class="cv-year-wrap">
+            <span class="badge font-weight-bold danger-color-dark cv-year-badge">Former</span>
+          </div>
+        </div>
+        <div class="col mt-2 mt-md-0">
+          <h6 class="title font-weight-bold ml-1 ml-md-4">MSU Research Foundation Distinguished Professor</h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">Michigan State University, East Lansing, MI</h6>
+          <ul class="items">
+            <li><span class="item">Department of Mathematics</span></li>
+            <li><span class="item">Department of Biochemistry & Molecular Biology</span></li>
+            <li><span class="item">BioMolecular Science Gateway</span></li>
+          </ul>
+        </div>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<!-- Selected resources include my [MSU homepage archive](https://users.math.msu.edu/users/weig/), [Wei Lab](https://weilab.math.msu.edu/), [Google Scholar profile](https://scholar.google.com/citations?user=If_mksUAAAAJ&hl=en), [SARS-CoV-2 Mutation Tracker](https://users.math.msu.edu/users/weig/SARS-CoV-2_Mutation_Tracker.html), and a [third-party YouTube video about our SARS-CoV-2 work](https://www.youtube.com/watch?v=_4k9Ovt-nm8). -->

@@ -1,108 +1,79 @@
-- title: General Information
-  type: map
+- title: Recent Grant Support
+  type: list
   contents:
-    - name: Full Name
-      value: Rui Wang
-    - name: CV PDF
-      value: Full form of CV can be viewed here <a href="../assets/pdf/RuiWangCV.pdf"><i class="fas fa-file-pdf"></i></a>
+    - National Institute of Health (NIGMS, NIAID)
+    - National Science Foundation (DMS, CISE, DGE)
+    - Department of Energy (DOE)
+    - Defense Advanced Research Projects Agency (DARPA)
+    - National Aeronautics and Space Administration (NASA)
+    - Bristol-Myers Squibb
+    - Pfizer
+    - Michigan Economic Development Corporation
+    - George Mason University
+    - MSU Foundation
+    - COVID-19 High Performance Computing Consortium
 
-- title: Education
-  type: time_table
+- title: Students, Postdocs, and Visiting Scholars
+  type: list
   contents:
-    - title: Ph.D.
-      institution: Michigan State University, East Lansing, MI 
-      year: 09/2017 - 07/2022
-      description:
-        - Applied Mathematics
-        - Advisor Prof. Guowei Wei
-        
-    - title: B.S.
-      institution: Xi'an Jiaotong University, Xi'an, Shaanxi, China
-      year: 09/2013 - 06/2017
-      description:
-        - Mathematics and Applied Mathematics (Honors Science Program)
-        - Advisor Prof. Yanni Xiao
+    - Currently 8 Ph.D. candidates, 5 research associates, 2 undergraduate research students, and 2 high school students.
+    - Graduated 27 Ph.D. students.
+    - Graduated 11 MSc students.
+    - Advised 65 undergraduate research students.
+    - Supported 30 postdoctoral associates.
+    - Supported 29 visiting scholars.
 
-- title: Experience
-  type: time_table
+- title: Group Photos
+  type: group_photos
+
+- title: Recent Group Alumni
+  type: list
   contents:
-    - title: Simons Center Postdoctoral Fellow
-      institution: New York University, New York City, NY
-      year: 12/2023 - Present
-
-    - title: Visiting Assistant Professor
-      institution: Michigan State University, East Lansing, MI 
-      year: 08/2022 - 10/2023
-
-    - title: Research Assistant
-      institution: Michigan State University, East Lansing, MI 
-      year: 01/2019 - 08/2022
-
-    - title: Teaching Assistant
-      institution: Michigan State University, East Lansing, MI 
-      year: 08/2017 - 12/2018
-
-    - title: Exchange Student
-      institution: Michigan State University, East Lansing, MI 
-      year: 01/2016 - 05/2016
-      
-# - title: Packages Developed
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/wangru25/SGNC">SGNC</a>
-#       year: 2023
-#       description: A package for designing highly druggable anti-cocaine addiction compounds using Stochastic-based Generative Network Complex.
-#     - title: <a href="https://github.com/wangru25/HERMES">HERMES</a>
-#       year: 2021
-#       description: A package for simultaneous topological data analysis (persistent Betti numbers) and geometric data analysis (persistent eigenvalues).
-#     - title: <a href="https://github.com/wangru25/HERMES">Machine Learning Tutorial</a>
-#       year: 2019
-#       description: A series of Python coding tutorial for 16 machine learning algorithms.
-    
-# - title: Website Developed
-#   type: time_table
-#   contents:
-#     - title: <a href="https://weilab.math.msu.edu/MutationAnalyzer/">MutationAnalyzer</a>
-#       year: 2021
-#       description: An interactive website for analyzing Spike protein RBD mutations.
-#     - title: <a href="https://users.math.msu.edu/users/weig/SARS-CoV-2_Mutation_Tracker.html">MutationTracker</a>
-#       year: 2020
-#       description: An interactive website for tracking SARS-CoV-2 mutations.
-  
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 12/2023
-      items: 
-        - Simons Center Postdoctoral Fellowship
-    - year: 07/2022
-      items: 
-        - SIAM Conference on the Life Sciences (LS22) Travel Award
-    - year: 05/2022
-      items: 
-        - College of Natural Science Completion Fellowship
-    - year: 05/2022
-      items:
-        - Dr. Paul and Wilma Dressel Endowed Scholarship
-    - year: 04/2020
-      items:
-        - Herbert T. Graham Scholarship Award
-    - year: 10/2019
-      items: 
-      - SCMLLS Travel Support Fund 
-    - year: 05/2019
-      items:
-      - College of Natural Science Continuation Fellowship
-
-# Research Interests: see _data/research_interests.yml (shown on About above News)
-
-# - title: Programming Languages
-#   type: list
-#   contents:
-#     - Python, MATLAB, JavaScript, BASH, C++, MATHEMATICS
-
-# - title: Molecular Visualization and Computer Graphics Softwares
-#   type: list
-#   contents:
-#     - VMD, ChimeraX, PyMOL, Blender, Illustrator
-
+    - Ben Jones, Postdoc at Yale (Ph.D. 2026).
+    - Nicole Hayes, Postdoc at University of Michigan (Ph.D. 2025).
+    - Faisal Suwayyid, Assistant Professor (tenure track), King Fahd University of Petroleum & Minerals (Ph.D. 2025).
+    - Zhe Su, Assistant Professor (tenure track), Auburn University (Research Associate 2023-2025).
+    - Hongsong Feng, Assistant Professor (tenure track), University of North Carolina at Charlotte (Research Associate 2021-2025).
+    - Li Shen, NITMB Fellow, Northwestern University/University of Chicago (Ph.D. 2025).
+    - Xiaoqi Wei, Postdoc at North Carolina State University (Ph.D. 2024).
+    - Yuta Hozumi, Hale Visiting Assistant Professor, Georgia Institute of Technology (Ph.D. 2024).
+    - Jian Liu, Assistant Professor, Chongqing University of Technology (visiting scholar 2022-2025).
+    - Rui Wang, Assistant Professor (tenure track) at RIT (PhD 2022, Visiting assistant professor 2022-2023).
+    - Yuchi Qiu, Assistant Professor (tenure track), University of Illinois Chicago (Research Associate 2020-2023).
+    - Azzam Alfarraj, Assistant Professor (tenure track), King Fahd University of Petroleum & Minerals (Ph.D. 2018-2023).
+    - Jiahui Chen, Assistant Professor (tenure-track), University of Arkansas (Visiting assistant professor 2019-2023).
+    - Dong Chen (Ph.D. 2022, Visiting assistant professor, MSU 2022-).
+    - Kaifu Gao, Senior machine learning scientist, Ensem Therapeutics (Research associate 2018-2022).
+    - Timothy Szocinski, Data scientist at Auray (Ph.D. 2021).
+    - Menglun Wang, The United States Food and Drug Administration (Ph.D. 2021).
+    - Jian Jiang, Professor, Wuhan Textile University (Visiting Scholar, 2019-2024).
+    - David Bramer, Instructor, Michigan State University (Ph.D., 2019).
+    - Duc Nguyen, Associate Professor, the University of Tennessee, Knoxville (Visiting assistant professor, 2015-2018).
+    - Zixuan Cang, Assistant Professor (tenure-track), North Carolina State University (Ph.D. 2018).
+    - Kedi Wu, Principal Quantitative Analyst, Capital One Financial Corporation, Plano, Texas (Ph.D. 2018).
+    - Yin Cao, R&D Analyst, Progressive Insurance, Cleveland, (Ph.D. 2017).
+    - Zhixiong Zhao, Assistant Professor, Foshan University (Research Associate, 2014-2016).
+    - Bao Wang, Assistant Professor (tenure-track), the University of Utah, (PhD 2016).
+    - Kristopher Opron, Senior Bioinformatician and Computational Biologist, University of Michigan Health System (Ph.D. 2016).
+    - Lin Mu, Associate Professor, University of Georgia, Athens (Visiting assistant professor, 2012-2015).
+    - Kelin Xia, Associate Professor, Nanyang Technological University (Ph.D. 2012 and postdoc 2013-2016).
+    - Jin Kyoung Park, Associate Professor, Ivy Tech Community College, Indiana (Ph.D. 2014).
+    - Langhua Hu, Analyst (first job), Discovery Financial Services, Riverwoods, IL (Ph.D. 2013).
+    - Zhan Chen, Professor, Georgia Southern University (Ph.D. 2011).
+    - Duan Chen, Professor, University of North Carolina, Charlotte (Ph.D. 2010).
+    - Siyang Yang, Assistant Professor (tenure-track), City University of Hong Kong (Declined due to family reasons) (Visiting assistant professor, 2010-2012).
+    - Weihua Geng, Professor, South Methodist University (Ph.D. 2008).
+    - Changjun Chen, Associate Professor, Huazhong University of Science and Technology (Research Associate, 2008-2009).
+    - Manfeng Hu, Professor, Jiangnan University (Visiting scholar, 2008-2009).
+    - Yuhui Sun, Analyst (first job), Eli Lilly, Indianapolis, IN (Ph.D. 2007).
+    - Sining Yu, Structured transaction analyst (first job), International Power America (Ph.D. 2007).
+    - Yongcheng Zhou, Professor, Colorado State University (Ph.D. 2006).
+    - Yibao Zhao, Senior Lecturer, Singapore Management University (Ph.D. 2004).
+    - Shan Zhao, Professor, University of Alabama (Ph.D. 2003 and Research Associate 2003-2006).
+    - Zujun Hou, Research Scientist, Singapore Bioimaging Consortium (Ph.D. 2003).
+    - Shuguang Guan, Professor, East China Normal University (Ph.D. 2002).
+    - Meng Zhan, Professor, Huazhong University of Science and Technology (Research Associate, 2001-2002).
+    - Zhenhai Shao, Professor, University of Electronic Science Technology of China (Research Associate, 2000-2001).
+    - Baofeng Feng, Professor, University of Texas - Pan American (Research Associate, 2000-2001).
+    - Prasad Patnaik, Professor, Indian Institute of Technology, Madras (Research Associate, 1999-2001).
+    - Decheng Wan, Professor, Shanghai Jiao Tong University, China (Research Associate, 1999-2001).

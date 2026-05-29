@@ -1,36 +1,27 @@
-- title: Recitations at Michigan State University
+- title: Current Teaching
   type: time_table
   contents:
-    - title: FS22 MTH234 Section 025
-      year: 09/2022 - 12/2022
-      description: 
-        - Recitation Instructor
-        - Multivariable Calculus
-        - Thursday, 1:50PM - 2:40PM, A326 WH
-    - title: FS22 MTH234 Section 028
-      year: 09/2022 - 12/2022
-      description: 
-        - Recitation Instructor
-        - Multivariable Calculus
-        - Thursday, 3:00PM - 3:50PM, A216 WH
+    - title: MTH994-001
+      institution: Michigan State University
+      year: Fall 2025
+      description:
+        - <a href="https://github.com/guowei-uga/courses_taught/blob/main/syllabus/MTH994_MathFoundationAI2025.pdf">Mathematics-Assisted AI and AI-inspired Mathematics</a>
+        - MW 10:40-12:00, Wells Hall C304
+    - title: MTH850
+      institution: Michigan State University
+      year: Fall 2025
+      description:
+        - Numerical Analysis I
+        - M/W/F 9:10-10:00, Wells Hall A302
+    - title: Office Hours
+      institution: By appointment
+      year: Fall 2025
+      description:
+        - Friday 10:40-12:00 and by appointment
 
-
-- title: Small Class at Michigan State University
-  type: time_table
+- title: Teaching Archive
+  type: list
   contents:
-    - title: SS23 MTH234 Section SCN20
-      year: 01/2023 - 04/2023
-      description: 
-        - Lecture Instructor
-        - Multivariable Calculus
-        - Monday, Tuesday, Thursday, 6:00PM - 7:10PM, A326 WH
-
-- title: Coding Tutorial at Michigan State University
-  type: time_table
-  contents:
-    - title: MTH994 
-      year: 09/2019 - 12/2021
-      description: 
-        - Coding Tutor
-        - Maching Learning and Deep Learning
-        - Python coding tutorial for 16 machine learning algorithms from scratch <a href="https://github.com/wangru25/MachineLearningTutorial">[Code]</a>.
+    - <a href="/courses-taught/">Courses taught</a>
+    - Mathematical Biology, Fall 2010
+    - <a href="https://users.math.msu.edu/users/weig/MBseminarSpring10.html">Mathematical Biology, Spring 2010</a>

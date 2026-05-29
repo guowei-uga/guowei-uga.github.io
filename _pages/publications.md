@@ -1,25 +1,48 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications 
-description: 
-years: [2025, 2024, 2023, 2022, 2021, 2020, 2019]
+title: Publications
+description:
 nav: true
 nav_order: 2
 ---
-<!-- _pages/publications.md -->
 <div class="publications">
 
-<p style="text-align: center; margin-bottom: 2rem;">
-  (*equal contribution, <sup>†</sup>corresponding author) | 
-  <a href='https://scholar.google.com/citations?user=5Tgpom0AAAAJ&hl=en' target='_blank' style='color: #8900e1; text-decoration: none; font-size: 1.1em;'>
-    <i class="ai ai-google-scholar" style="font-size: 1.2em; margin-right: 0.5em;"></i>Google Scholar Profile
-  </a>
+<p>
+  For the complete publication lists, see my
+  <a href="https://scholar.google.com/citations?user=If_mksUAAAAJ&hl=en">Google Scholar profile</a>.
 </p>
 
-{%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
+<h2>Publication Lists by Category</h2>
+
+<ul>
+  <li>Mathematical molecular bioscience and biophysics <a href="https://users.math.msu.edu/users/weig/pub-mb.html">[Link]</a></li>
+  <li>Machine learning, big data, signals, images, and surfaces <a href="https://users.math.msu.edu/users/weig/pub-ip.html">[Link]</a></li>
+  <li>Mathematical virology, virus evolution, infectivity, vaccine breakthrough, and antibody resistance <a href="https://users.math.msu.edu/users/weig/virus.html">[Link]</a></li>
+  <li>Matched interface and boundary (MIB) <a href="https://users.math.msu.edu/users/weig/pub-mib.html">[Link]</a></li>
+  <li>Scientific and engineering computations <a href="https://users.math.msu.edu/users/weig/pub-sec.html">[Link]</a></li>
+  <li>Quantum kinetic theory and quantum scattering theory <a href="https://users.math.msu.edu/users/weig/pub-qk.html">[Link]</a></li>
+  <li>Nano and material sciences <a href="https://users.math.msu.edu/users/weig/pub-ns.html">[Link]</a></li>
+  <li>Controlling chaos, turbulence, and pattern formation <a href="https://users.math.msu.edu/users/weig/pub-cct.html">[Link]</a></li>
+</ul>
+
+<h2>Selected Research Resources</h2>
+
+<ul>
+  <li>Persistent homology analysis of biomolecular data <a href="{{ '/assets/pdf/siam-news-persistent-homology.pdf' | relative_url }}">[Link]</a></li>
+  <li>Math and AI-based repositioning of existing drugs for COVID-19 <a href="{{ '/assets/pdf/siam-news-covid-drug-repositioning.pdf' | relative_url }}">[Link]</a></li>
+  <li>Topological artificial intelligence forecasting of future dominant viral variants <a href="https://www.siam.org/publications/siam-news/articles/topological-artificial-intelligence-forecasting-of-future-dominant-viral-variants/">[Link]</a></li>
+  <li>Characterizing musical sounds with topological data analysis <a href="{{ '/assets/pdf/siam-news-musical-sounds-tda.pdf' | relative_url }}">[Link]</a></li>
+  <li>Mathematics-assisted directed evolution and protein engineering <a href="{{ '/assets/pdf/siam-news-directed-evolution-protein-engineering.pdf' | relative_url }}">[Link]</a></li>
+  <li>Topological deep learning: an emerging paradigm in data science <a href="https://www.siam.org/publications/siam-news/articles/topological-deep-learning-an-emerging-paradigm-in-data-science/">[Link]</a></li>
+</ul>
+
+<h2>Dedicated to those who lost their lives to the pandemic</h2>
+
+<ul>
+  <li>Complete Publication List <a href="https://users.math.msu.edu/users/weig/virus.html">[Link]</a></li>
+  <li>SARS-CoV-2 Mutation Tracker <a href="https://users.math.msu.edu/users/weig/SARS-CoV-2_Mutation_Tracker.html">[Link]</a></li>
+  <li>Third-party YouTube video about our work on SARS-CoV-2 <a href="https://www.youtube.com/watch?v=_4k9Ovt-nm8">[Link]</a></li>
+</ul>
 
 </div>

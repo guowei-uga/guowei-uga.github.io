@@ -8,7 +8,7 @@
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
             {%- if site.title == "blank" -%}
               {%- if site.first_name -%}
-                <span class="font-weight-bold" style="color: var(--nyu-deep-violet-color);">{{- site.first_name -}}&nbsp;</span>
+                <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
               {%- endif -%}
               {%- if site.middle_name -%}
                 {{- site.middle_name -}}&nbsp;
@@ -72,16 +72,6 @@
                   {% endfor %}
                 </div>
               </li>
-              {% if site.blog_nav_title and p.title == 'Repositories' %}
-              <!-- Blog -->
-              <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
-                  {%- if page.url contains 'blog' -%}
-                  <span class="sr-only">(current)</span>
-                  {%- endif -%}
-                </a>
-              </li>
-              {%- endif %}
               {%- else %}
               <li class="nav-item {% if page.title == p.title %}active{% endif %}">
                 <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }}
@@ -90,16 +80,6 @@
                   {%- endif -%}
                 </a>
               </li>
-              {% if site.blog_nav_title and p.title == 'Repositories' %}
-              <!-- Blog -->
-              <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
-                  {%- if page.url contains 'blog' -%}
-                  <span class="sr-only">(current)</span>
-                  {%- endif -%}
-                </a>
-              </li>
-              {%- endif %}
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}

@@ -69,7 +69,7 @@
 
 // Modern button styles
 .btn-modern {
-  background: linear-gradient(45deg, #{$nyu-violet-color}, #{$nyu-ultra-violet-color});
+  background: #{$uga-glory-red-color};
   border: none;
   border-radius: 25px;
   padding: 12px 30px;
@@ -131,6 +131,52 @@ html {
 // CV section headings: slightly above normal (500), lighter than semibold (600)
 .cv h3.card-title {
   font-weight: 550;
+}
+
+.group-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.group-photo-card {
+  display: block;
+  overflow: hidden;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  text-decoration: none;
+}
+
+.group-photo-card:hover {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+.group-photo-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.group-photo-card span {
+  display: block;
+  padding: 0.45rem 0.6rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.about-appointments {
+  margin: 2.25rem 0 1.1rem;
+}
+
+.about-appointments h2 {
+  color: var(--global-header-color);
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
 }
 
 // Page titles (Presentations, CV, blog posts, etc.)
@@ -211,7 +257,7 @@ html {
 
 // Gradient text effect
 .gradient-text {
-  background: linear-gradient(45deg, #{$nyu-violet-color}, #{$nyu-ultra-violet-color});
+  background: linear-gradient(45deg, #{$uga-glory-red-color}, #{$uga-bulldog-red-color});
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -245,7 +291,7 @@ html {
   right: 30px;
   width: 50px;
   height: 50px;
-  background: linear-gradient(45deg, #{$nyu-violet-color}, #{$nyu-ultra-violet-color});
+  background: #{$uga-glory-red-color};
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -280,7 +326,7 @@ html {
 
 .loading-spinner {
   border: 3px solid #f3f3f3;
-  border-top: 3px solid #{$nyu-violet-color};
+  border-top: 3px solid #{$uga-glory-red-color};
   border-radius: 50%;
   width: 30px;
   height: 30px;
@@ -352,7 +398,7 @@ a {
     left: 0;
     width: 0;
     height: 2px;
-    background: #{$nyu-violet-color};
+    background: #{$uga-glory-red-color};
     transition: width 0.3s ease;
   }
   
@@ -375,11 +421,11 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(45deg, #{$nyu-violet-color}, #{$nyu-ultra-violet-color});
+  background: #{$uga-glory-red-color};
   border-radius: 4px;
   
   &:hover {
-    background: linear-gradient(45deg, #{$nyu-ultra-violet-color}, #{$nyu-violet-color});
+    background: #{$uga-bulldog-red-color};
   }
 }
 
@@ -410,10 +456,11 @@ a {
     max-width: 9.25rem;
   }
 
-  // Presentations (/talks/) only — narrow slots (see _layouts/talks.html)
+  // Talks page only — wide enough for date ranges like "09/30/2024 - 10/04/2024".
   .cv.cv-year-compact .cv-year-col {
-    flex: 0 0 7.75rem;
-    max-width: 7.75rem;
+    flex: 0 0 12rem;
+    max-width: 12rem;
+    padding-right: 1.25rem;
   }
 }
 
@@ -425,7 +472,7 @@ a {
 }
 
 .cv.cv-year-compact .cv-year-wrap {
-  width: 7.75rem;
+  width: 12rem;
   margin-left: 0;
   margin-right: auto;
 }
@@ -449,7 +496,7 @@ a {
 .cv.cv-year-compact .cv-year-badge.badge {
   background: transparent !important;
   background-color: transparent !important;
-  color: #{$nyu-ultra-violet-color} !important;
+  color: var(--global-theme-color) !important;
   border-radius: 0 !important;
   box-shadow: none !important;
   padding: 0 8px 0 0 !important;
@@ -476,12 +523,12 @@ a {
   }
 
   &::-webkit-scrollbar-thumb {
-    background: #{$nyu-medium-violet-3-color};
+    background: #{$uga-glory-red-color};
     border-radius: 8px;
     border: 2px solid #e0e0e0;
 
     &:hover {
-      background: #{$nyu-medium-violet-1-color};
+      background: #{$uga-bulldog-red-color};
     }
   }
 
@@ -490,7 +537,7 @@ a {
   }
 
   scrollbar-width: thin;
-  scrollbar-color: #{$nyu-light-violet-1-color} #e0e0e0;
+  scrollbar-color: #{$uga-glory-red-color} #e0e0e0;
 }
 
 // About page: Research Interests / News sit after an empty floated .profile spacer; without
@@ -503,6 +550,10 @@ a {
 // About: gap between Research Interests and News (default .cv has margin-bottom: 40px + News .card has mt-3)
 .post article > .about-research-section {
   margin-bottom: 0.5rem;
+}
+
+.post article > .about-research-section h3.card-title {
+  font-size: 1.75rem;
 }
 
 .post article > .news.cv > .card.mt-3 {
@@ -528,7 +579,7 @@ a {
   .news .table-responsive table.table th,
   .news th.font-weight-bold {
     // color: $nyu-light-violet-1-color!important; // 黑色，浅色模式下使用
-    color: $nyu-ultra-violet-color!important; // 黑色，浅色模式下使用
+    color: $uga-glory-red-color!important;
   }
   
   .table-responsive {
@@ -556,12 +607,12 @@ a {
     }
     
     &::-webkit-scrollbar-thumb {
-      background: #{$nyu-medium-violet-3-color} !important; // 使用浅紫色
+      background: #{$uga-glory-red-color} !important;
       border-radius: 8px !important;
       border: 2px solid #e0e0e0 !important;
       
       &:hover {
-        background: #{$nyu-medium-violet-1-color} !important; // 悬停时稍深一点
+        background: #{$uga-bulldog-red-color} !important;
       }
     }
     
@@ -572,7 +623,7 @@ a {
     
     // 备用滚动条样式（Firefox等）
     scrollbar-width: thin;
-    scrollbar-color: #{$nyu-light-violet-1-color} #e0e0e0;
+    scrollbar-color: #{$uga-glory-red-color} #e0e0e0;
   }
   
   // 新闻条目样式
@@ -596,7 +647,7 @@ a {
     }
     
     tr:hover {
-      background-color: rgba(87, 6, 140, 0.05);
+      background-color: rgba(228, 0, 43, 0.05);
     }
     
     // 确保表格内容足够高以触发滚动
