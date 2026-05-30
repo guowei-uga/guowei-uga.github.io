@@ -40,34 +40,217 @@
 - title: Mathematical Seminars
   type: list
   contents:
-    - <a href="/nitmb/">Mathematical Molecular Biosciences Online Seminar Series</a>
-    - <a href="https://weilab.math.msu.edu/CTGG/">Biweekly seminars in Computational Topology/Geometry/Graph</a>
-
+    - <a href="/assets/html/talks/seminars/nitmb/index.html">Mathematical Molecular Biosciences Online Seminar Series</a>
+    - <a href="/assets/html/talks/seminars/ctgg/index.html">Biweekly seminars in Computational Topology/Geometry/Graph</a>
+    - Mathematical Biology, Fall 2010
+    - Mathematical Biology, <a href="/assets/html/talks/seminars/mathematical-biology/spring-2010.html">Spring 2010</a>
 - title: Conferences Organized
   type: time_table
   contents:
     - title: Applied Geometry for Data Sciences, Part I
       institution: IMS, NUS, Singapore
-      year: 09/30/2024 - 10/04/2024
+      year: September 30 - October 4, 2024
       description:
         - Scientific Committee
     - title: 2024 ICBS Frontiers of Science Award
       institution: Algebraic and Geometric Topology
-      year: 07/2024
+      year: July 2024
       description:
-        - Selection committee and nomination committee
+        - Selection committee
+        - Nomination committee
     - title: '<a href="https://ims.nus.edu.sg/events/biomolecular-topology-modelling-and-data-analysis/">Biomolecular Topology: Modelling and Data Analysis</a>'
       institution: IMS-NTU joint workshop, IMS, NUS, Singapore
-      year: 06/24/2024 - 06/28/2024
+      year: June 24 - 28, 2024
       description:
         - Organizing Committee
-    - title: Computational Topology and Application
-      institution: Tsinghua Sanya International Mathematics Forum
-      year: 12/18/2023 - 12/22/2023
+    - title: 8th International Conference on Computational and Mathematical Biomedical Engineering (CMBE24)
+      institution: George Mason University, Arlington, Virginia
+      year: June 24 - 26, 2024
+      description:
+        - International Advisory Committee
+    - title: '<a href="http://www.tsimf.cn/meeting/detail?id=319">The 6th Conference on Computational and Mathematical Bioinformatics and Biophysics</a>'
+      institution: Tsinghua Sanya International Mathematics Forum (TSIMF), Sanya, China
+      year: December 16 - 20, 2024
+      description:
+        - Organizer
+    - title: '<a href="http://www.tsimf.cn/meeting/detail?id=312">Computational Topology and Application</a>'
+      institution: Tsinghua Sanya International Mathematics Forum (TSIMF), Sanya, China
+      year: December 18 - 22, 2023
       description:
         - Organizer
     - title: MSU Workshop on Spatial and Time-Resolved Single-Cell Transcriptomics Analysis
       institution: Michigan State University
-      year: 11/12/2023 - 11/13/2023
+      year: November 12 - 13, 2023
       description:
         - Lead organizer
+    - title: Workshop on scRNA-Seq, Spatiotemporal Transcriptomic, and Genomic Data Analysis
+      institution: Michigan State University
+      year: August 24 - 26, 2023
+      description:
+        - Lead organizer
+    - title: Biweekly Online Seminar on Mathematical Molecular Biosciences
+      institution: Michigan State University
+      year: 2022 - 2024
+      description:
+        - Organizer
+    - title: The fifth conference on Computational and Mathematical Bioinformatics and Biophysics
+      institution: Tsinghua Sanya International Mathematics Forum (TSIMF), Sanya, China
+      year: December 11 - 15, 2023
+      description:
+        - Organizer
+    - title: Applied Geometry for Data Sciences
+      institution: Mathematical Science Research Center, Chongqing, China
+      year: July 25 - 29, 2022
+      description:
+        - Organizing Committee
+    - title: '<a href="https://ims.nus.edu.sg/events/applied-topology-in-frontier-sciences/">Applied Topology in Frontier Sciences</a>'
+      institution: IMS, NUS
+      year: July 11 - 22, 2022
+      description:
+        - Organizing Committee
+    - title: 'Presidential Workshop: Everything Chemists Always Wanted To Know About Machine Learning* (*But Were Afraid To Ask)'
+      institution: The ACS meeting in San Diego
+      year: March 19, 2022
+      description:
+        - Organizer
+    - title: '<a href="https://www.imsi.institute/activities/mathematics-of-soft-matter/">The Mathematics of Soft Matter: Structure and Dynamics</a>'
+      institution: Institute for Mathematical and Statistical Innovation
+      year: February 28 - March 4, 2022
+      description:
+        - Organizer
+    - title: '<a href="http://www.tsimf.cn/meeting/show?id=212">The fourth conference on Computational and Mathematical Bioinformatics and Biophysics</a>'
+      institution: Tsinghua Sanya International Mathematics Forum (TSIMF), Sanya, China
+      year: December 13 - 17, 2021
+      description:
+        - Organizer
+    - title: '<a href="http://www.tsimf.cn/meeting/show?id=213">Computational Topology and Application</a>'
+      institution: Tsinghua Sanya International Mathematics Forum (TSIMF), Sanya, China
+      year: December 13 - 17, 2021
+      description:
+        - Organizer
+    - title: '<a href="https://personal.ntu.edu.sg/XIAKELIN/TDAconf.html">Beyond TDA--Persistent topology and its applications in data sciences</a>'
+      institution: Online meeting
+      year: August 28 - 30, 2021
+      description:
+        - Organizer
+    - title: '<a href="http://www.tsimf.cn/meeting/show?id=209">The third conference on Computational and Mathematical Bioinformatics and Biophysics</a>'
+      institution: Tsinghua Sanya International Mathematics Forum (TSIMF), Sanya, China
+      year: December 21 - 25, 2020
+      description:
+        - Organizer
+    - title: '<a href="http://www.tsimf.cn/meeting/show?id=197">Computational Topology and Application</a>'
+      institution: Tsinghua Sanya International Mathematics Forum (TSIMF), Sanya, China
+      year: December 7 - 11, 2020
+      description:
+        - Organizer
+        - Cancelled
+    - title: Quantum Dynamics & Beyond, Symposium in honor of Donal J Kouri
+      institution: ACS Philadelphia
+      year: March 24 - 25, 2020
+      description:
+        - Organizer
+    - title: '<a href="http://www.tsimf.cn/meeting/show?id=185">The second conference on Computational and Mathematical Bioinformatics and Biophysics</a>'
+      institution: Tsinghua Sanya International Mathematics Forum (TSIMF), Sanya, China
+      year: December 9 - 13, 2019
+      description:
+        - Organizer
+    - title: '<a href="https://tdai.osu.edu/tripods-workshop/">TGDA@OSU TRIPODS workshop on Structure in the Micro-world</a>'
+      institution: Ohio State University
+      year: May 28 - 31, 2019
+      description:
+        - Organizer
+    - title: '<a href="http://www.tsimf.cn/meeting/show?id=137">Computational and Mathematical Approaches for Bioinformatics and Biophysics</a>'
+      institution: Tsinghua Sanya International Mathematics Forum (TSIMF), Sanya, China
+      year: December 10 - 14, 2018
+      description:
+        - Organizer
+    - title: '<a href="http://www.fields.utoronto.ca/activities/17-18/MathBiology-drugs">Mathematics of Drug Design/Discovery</a>'
+      institution: The Fields Institute for Research in Mathematical Sciences, Toronto, Canada
+      year: June 4 - 8, 2018
+      description:
+        - Organizer
+    - title: '<a href="http://aimath.org/workshops/upcoming/topbiomolec/">Topology of the biomolecular world</a>'
+      institution: American Institute of Mathematics, San Jose, California
+      year: July 24 - 28, 2017
+      description:
+        - Organizer
+    - title: '<a href="http://www.tsimf.cn/meeting/show?id=72">Mathematical Biophysics and Molecular Biosciences</a>'
+      institution: Tsinghua Sanya International Mathematics Forum (TSIMF), Sanya, China
+      year: December 19 - 23, 2016
+      description:
+        - Organizer
+    - title: '<a href="http://www.siam.org/meetings/ls16/">SIAM Conference on the Life Sciences (LS16)</a>'
+      institution: The Westin Boston Waterfront, Boston, Massachusetts
+      year: July 11 - 14, 2016
+      description:
+        - Organizer
+    - title: '<a href="https://mbi.osu.edu/programs/emphasis-programs/previous-programs/mathematical-molecular-biosciences-fall-2015/">MBI Emphasis Year on Mathematical Molecular Biosciences Fall 2015</a>'
+      institution: MBI, Columbus
+      year: August 16 - December 31, 2015
+      description:
+        - Organizer
+    - title: '<a href="https://www.ima.umn.edu/2014-2015/SW7.20-24.15">Mathematics of Biological Charge Transport: Molecular and Beyond</a>'
+      institution: IMA, University of Minnesota
+      year: July 20 - 24, 2015
+      description:
+        - Organizer
+    - title: '<a href="/assets/html/talks/conferences/wphb/Home.htm">Workshop on Persistent Homology for Biosciences</a>'
+      institution: East Lansing
+      year: October 18, 2014
+      description:
+        - Organizer
+    - title: '<a href="/assets/html/talks/conferences/icmmc/Home.htm">International Conference on Mathematical Modeling and Computation</a>'
+      institution: Wuhan, China
+      year: May 16 - 19, 2013
+      description:
+        - Organizer
+    - title: '<a href="http://mbi.osu.edu/event/?id=169">CTW: Mathematical Challenges in Biomolecular/Biomedical Imaging and Visualization</a>'
+      institution: MBI, Columbus
+      year: February 18 - 22, 2013
+      description:
+        - Organizer
+    - title: 2nd Midwest Conference on Mathematical Methods for Images and Surfaces
+      institution: Lansing
+      year: August 27 - 28, 2011
+      description:
+        - Organizer
+    - title: '<a href="http://mbi.osu.edu/event/?id=137">Modeling and computation of biomolecular structure and dynamics</a>'
+      institution: Mathematical Bioscience Institute, Columbus
+      year: April 25 - 29, 2011
+      description:
+        - Organizer
+    - title: '<a href="/assets/html/talks/conferences/files/workshop-nano-bio-math-mechanics-2010.pdf">Workshop on Nano-Bio Mathematics and Mechanics</a>'
+      institution: East Lansing
+      year: August 5, 2010
+      description:
+        - Organizer
+    - title: '<a href="/assets/html/talks/conferences/nano-bio-2009/index.html">Workshop on Nano-Bio Mathematics</a>'
+      institution: East Lansing
+      year: August 4, 2009
+      description:
+        - Organizer
+    - title: '<a href="/assets/html/talks/conferences/mcmm/index.html">Midwest Conference on Mathematical Methods for Images and Surfaces</a>'
+      institution: Lansing
+      year: April 18 - 19, 2009
+      description:
+        - Organizer
+    - title: MSU-UM Math-Biology Day
+      institution: East Lansing
+      year: December 1, 2007
+      description:
+        - Organizer
+    - title: MSU-UM Math-Biology Day
+      institution: Ann Arbor
+      year: December 2, 2006
+      description:
+        - Organizer
+    - title: '<a href="/assets/html/talks/conferences/mqbc/index.html">Midwest Quantitative Biology Conference</a>'
+      institution: Mackinac Island, Michigan
+      year: September 29 - October 1, 2006
+      description:
+        - Organizer
+    - title: Workshop on Advanced Algorithms for Science and Engineering
+      institution: Singapore
+      year: March 2000
+      description:
+        - Organizer

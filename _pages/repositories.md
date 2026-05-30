@@ -10,8 +10,8 @@ nav_order: 5
 ## Data Library
 
 <ul>
-  <li><a href="https://weilab.math.msu.edu/DataLibrary/2D/">2D data library for chemical, biophysical, and biological information</a></li>
-  <li><a href="https://weilab.math.msu.edu/DataLibrary/3D/">3D data library for chemical, biophysical, and biological information</a></li>
+  <li><a href="/assets/html/repositories/data-library/2d.html">2D data library for chemical, biophysical, and biological information</a></li>
+  <li><a href="/assets/html/repositories/data-library/3d.html">3D data library for chemical, biophysical, and biological information</a></li>
 </ul>
 
 ## Software Packages

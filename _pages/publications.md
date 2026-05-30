@@ -9,21 +9,21 @@ nav_order: 2
 <div class="publications">
 
 <p>
-  For the complete publication lists, see my
+  For the complete publication lists, check <a href="/assets/html/publications/complete.html">here</a> or my
   <a href="https://scholar.google.com/citations?user=If_mksUAAAAJ&hl=en">Google Scholar profile</a>.
 </p>
 
 <h2>Publication Lists by Category</h2>
 
 <ul>
-  <li>Mathematical molecular bioscience and biophysics <a href="https://users.math.msu.edu/users/weig/pub-mb.html">[Link]</a></li>
-  <li>Machine learning, big data, signals, images, and surfaces <a href="https://users.math.msu.edu/users/weig/pub-ip.html">[Link]</a></li>
-  <li>Mathematical virology, virus evolution, infectivity, vaccine breakthrough, and antibody resistance <a href="https://users.math.msu.edu/users/weig/virus.html">[Link]</a></li>
-  <li>Matched interface and boundary (MIB) <a href="https://users.math.msu.edu/users/weig/pub-mib.html">[Link]</a></li>
-  <li>Scientific and engineering computations <a href="https://users.math.msu.edu/users/weig/pub-sec.html">[Link]</a></li>
-  <li>Quantum kinetic theory and quantum scattering theory <a href="https://users.math.msu.edu/users/weig/pub-qk.html">[Link]</a></li>
-  <li>Nano and material sciences <a href="https://users.math.msu.edu/users/weig/pub-ns.html">[Link]</a></li>
-  <li>Controlling chaos, turbulence, and pattern formation <a href="https://users.math.msu.edu/users/weig/pub-cct.html">[Link]</a></li>
+  <li>Mathematical molecular bioscience and biophysics <a href="/assets/html/publications/mb.html">[Link]</a></li>
+  <li>Machine learning, big data, signals, images, and surfaces <a href="/assets/html/publications/ip.html">[Link]</a></li>
+  <li>Mathematical virology, virus evolution, infectivity, vaccine breakthrough, and antibody resistance <a href="/assets/html/publications/virus.html">[Link]</a></li>
+  <li>Matched interface and boundary (MIB) <a href="/assets/html/publications/mib.html">[Link]</a></li>
+  <li>Scientific and engineering computations <a href="/assets/html/publications/sec.html">[Link]</a></li>
+  <li>Quantum kinetic theory and quantum scattering theory <a href="/assets/html/publications/qk.html">[Link]</a></li>
+  <li>Nano and material sciences <a href="/assets/html/publications/ns.html">[Link]</a></li>
+  <li>Controlling chaos, turbulence, and pattern formation <a href="/assets/html/publications/cct.html">[Link]</a></li>
 </ul>
 
 <h2>Selected Research Resources</h2>
@@ -40,8 +40,8 @@ nav_order: 2
 <h2>Dedicated to those who lost their lives to the pandemic</h2>
 
 <ul>
-  <li>Complete Publication List <a href="https://users.math.msu.edu/users/weig/virus.html">[Link]</a></li>
-  <li>SARS-CoV-2 Mutation Tracker <a href="https://users.math.msu.edu/users/weig/SARS-CoV-2_Mutation_Tracker.html">[Link]</a></li>
+  <li>Complete Pandemic-related Publication List <a href="/assets/html/publications/virus.html">[Link]</a></li>
+  <li>SARS-CoV-2 Mutation Tracker <a href="/assets/html/publications/sars-cov-2-mutation-tracker.html">[Link]</a></li>
   <li>Third-party YouTube video about our work on SARS-CoV-2 <a href="https://www.youtube.com/watch?v=_4k9Ovt-nm8">[Link]</a></li>
 </ul>
 

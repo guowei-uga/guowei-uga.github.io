@@ -1,0 +1,217 @@
+html {
+  background: #ffffff;
+  font-size: 112.5%;
+}
+
+body.mirror-seminar-page {
+  background: #ffffff !important;
+  color: #111111 !important;
+  font-family: Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif !important;
+  line-height: 1.55 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.mirror-site-header {
+  background: #e4002b;
+  border-bottom: 1px solid #ba0c2f;
+  color: #ffffff;
+  font-family: Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+
+.mirror-site-header__inner {
+  align-items: center;
+  display: flex;
+  gap: 1.25rem;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1100px;
+  min-height: 60px;
+  padding: 0 1rem;
+}
+
+.mirror-site-title,
+.mirror-site-nav a {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.mirror-site-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.mirror-site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.mirror-site-nav a {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.mirror-site-nav a:hover {
+  text-decoration: underline !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 0.25rem !important;
+}
+
+.mirror-seminar-content {
+  box-sizing: border-box;
+  margin: 2.75rem auto 4rem;
+  max-width: 1100px;
+  padding: 0 1.5rem;
+}
+
+.mirror-seminar-content,
+.mirror-seminar-content p,
+.mirror-seminar-content div,
+.mirror-seminar-content span,
+.mirror-seminar-content li,
+.mirror-seminar-content td,
+.mirror-seminar-content th,
+.mirror-seminar-content a {
+  font-family: Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif !important;
+  line-height: 1.55 !important;
+}
+
+.mirror-seminar-content p,
+.mirror-seminar-content li {
+  color: #111111 !important;
+  font-size: 1rem !important;
+}
+
+.mirror-seminar-content p {
+  margin: 0 0 0.75rem !important;
+}
+
+.mirror-seminar-content ul,
+.mirror-seminar-content ol {
+  margin-bottom: 1.25rem !important;
+  margin-top: 0.5rem !important;
+  padding-left: 1.35rem !important;
+}
+
+.mirror-seminar-content li {
+  margin-bottom: 0.85rem !important;
+}
+
+.mirror-seminar-content h1,
+.mirror-seminar-content h2,
+.mirror-seminar-content h3,
+.mirror-seminar-content h4,
+.mirror-seminar-content h5,
+.mirror-seminar-content h6 {
+  color: #ba0c2f !important;
+  font-family: Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
+  margin: 1.75rem 0 1rem !important;
+}
+
+.mirror-seminar-content h1 {
+  font-size: 2.2rem !important;
+}
+
+.mirror-seminar-content h1 small {
+  color: #111111 !important;
+  display: block;
+  font-size: 1.05rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.25rem;
+}
+
+.mirror-seminar-content h3 {
+  font-size: 1.35rem !important;
+}
+
+.mirror-seminar-content .schedule-title {
+  color: #111111 !important;
+  font-family: Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  line-height: 1.55 !important;
+  margin: 0.85rem 0 !important;
+}
+
+.mirror-seminar-content a {
+  color: #ba0c2f !important;
+}
+
+.mirror-seminar-content a:hover {
+  color: #e4002b !important;
+  text-decoration: underline !important;
+}
+
+.mirror-seminar-content .header {
+  background: transparent !important;
+  box-shadow: none !important;
+  display: block !important;
+  margin: 0 0 1.75rem !important;
+  padding: 0 !important;
+}
+
+.mirror-seminar-content .header h1 {
+  color: #ba0c2f !important;
+  font-size: 2.2rem !important;
+  margin: 0 !important;
+}
+
+.mirror-seminar-content .header img {
+  display: none !important;
+}
+
+.mirror-seminar-content .content {
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+.mirror-seminar-content .schedule {
+  margin-bottom: 1rem !important;
+}
+
+.mirror-seminar-content img {
+  max-width: 100%;
+}
+
+.mirror-seminar-content table {
+  border-collapse: collapse !important;
+  margin: 1.25rem 0 !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.mirror-seminar-content td,
+.mirror-seminar-content th {
+  border: 1px solid #d7d7d7 !important;
+  padding: 0.55rem 0.65rem !important;
+  vertical-align: top !important;
+}
+
+.mirror-seminar-content th,
+.mirror-seminar-content tr:first-child td {
+  background: #f7f7f7 !important;
+  font-weight: 700 !important;
+}
+
+@media (max-width: 640px) {
+  .mirror-site-header__inner {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 0.8rem;
+    padding-top: 0.8rem;
+  }
+
+  .mirror-site-nav {
+    justify-content: flex-start;
+  }
+
+  .mirror-seminar-content {
+    margin-top: 2rem;
+    padding: 0 1rem;
+  }
+}
