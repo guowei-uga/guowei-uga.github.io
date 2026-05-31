@@ -5,12 +5,13 @@ xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
 xmlns="http://www.w3.org/TR/REC-html40">
 
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
 <meta name=ProgId content=Word.Document>
 <meta name=Generator content="Microsoft Word 11">
 <meta name=Originator content="Microsoft Word 11">
-<link rel=File-List href="index_files/filelist.xml">
-<link rel=Edit-Time-Data href="index_files/editdata.mso">
+
+
 <!--[if !mso]>
 <style>
 v\:* {behavior:url(#default#VML);}
@@ -178,10 +179,23 @@ div.Section1
  <o:shapelayout v:ext="edit">
   <o:idmap v:ext="edit" data="1"/>
  </o:shapelayout></xml><![endif]-->
+<link rel="stylesheet" href="../../../../css/seminar-mirror.css">
 </head>
 
 <body bgcolor=white background=background.jpg lang=EN-US link=blue vlink=blue
-style='tab-interval:.5in'>
+style='tab-interval:.5in' class="mirror-seminar-page">
+<header class="mirror-site-header">
+  <div class="mirror-site-header__inner">
+    <a class="mirror-site-title" href="/">Guo-Wei Wei</a>
+    <nav class="mirror-site-nav" aria-label="Conference mirror navigation">
+      <a href="/talks/">Talks</a>
+      <a href="/publications/">Publications</a>
+      <a href="/repositories/">Repositories</a>
+    </nav>
+  </div>
+</header>
+<main class="mirror-seminar-content">
+
 
 <div class=Section1>
 
@@ -534,6 +548,7 @@ mso-hansi-font-family:"Times New Roman"'>　</span><span lang=ZH-CN> </span></p>
 
 </div>
 
+</main>
 </body>
 
 </html>

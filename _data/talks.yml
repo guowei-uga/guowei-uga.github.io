@@ -46,6 +46,7 @@
     - Mathematical Biology, <a href="/assets/html/talks/seminars/mathematical-biology/spring-2010.html">Spring 2010</a>
 - title: Conferences Organized
   type: time_table
+  scrollable: true
   contents:
     - title: Applied Geometry for Data Sciences, Part I
       institution: IMS, NUS, Singapore

@@ -22,7 +22,13 @@ layout: default
                   {% elsif entry.type == "nested_list" %}
                     {% include cv/nested_list.html %}
                   {% elsif entry.type == "time_table" %}
-                   {% include cv/time_table.html %}
+                    {% if entry.scrollable %}
+                      <div class="cv-time-table-scroll">
+                        {% include cv/time_table.html %}
+                      </div>
+                    {% else %}
+                      {% include cv/time_table.html %}
+                    {% endif %}
                   {% else %}
                     {{ entry.contents }}
                   {% endif %}
