@@ -124,6 +124,20 @@ body.mirror-publication-page {
   text-decoration-color: #e4002b !important;
 }
 
+.mirror-publication-content a:not([href]),
+.mirror-publication-content a:not([href]) span,
+.mirror-publication-content a:not([href]) strong,
+.mirror-publication-content a:not([href]) em,
+.mirror-publication-content a:not([href]):hover,
+.mirror-publication-content a:not([href]):hover span,
+.mirror-publication-content a:not([href]):hover strong,
+.mirror-publication-content a:not([href]):hover em {
+  color: inherit !important;
+  cursor: default !important;
+  text-decoration: none !important;
+  text-decoration-color: currentColor !important;
+}
+
 .mirror-publication-content span[style*="Symbol"][style*="mso-list:Ignore"],
 .mirror-publication-content span[style*="Symbol"] > span[style*="mso-list:Ignore"],
 .mirror-publication-content .MsoHyperlink span[style*="mso-list:Ignore"] {
