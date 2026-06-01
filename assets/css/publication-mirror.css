@@ -106,14 +106,44 @@ body.mirror-publication-page {
   margin: 1.75rem 0 1rem !important;
 }
 
-.mirror-publication-content a {
+.mirror-publication-content a,
+.mirror-publication-content a span,
+.mirror-publication-content a strong,
+.mirror-publication-content a em {
   color: #ba0c2f !important;
   font-family: Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif !important;
+  text-decoration-color: #ba0c2f !important;
 }
 
-.mirror-publication-content a:hover {
+.mirror-publication-content a:hover,
+.mirror-publication-content a:hover span,
+.mirror-publication-content a:hover strong,
+.mirror-publication-content a:hover em {
   color: #e4002b !important;
   text-decoration: underline !important;
+  text-decoration-color: #e4002b !important;
+}
+
+.mirror-publication-content span[style*="Symbol"][style*="mso-list:Ignore"],
+.mirror-publication-content span[style*="Symbol"] > span[style*="mso-list:Ignore"],
+.mirror-publication-content .MsoHyperlink span[style*="mso-list:Ignore"] {
+  color: #111111 !important;
+  text-decoration: none !important;
+  text-underline: none !important;
+}
+
+.mirror-publication-content .MsoHyperlink,
+.mirror-publication-content .MsoHyperlink span {
+  color: inherit !important;
+  text-decoration: none !important;
+  text-underline: none !important;
+  text-decoration-color: currentColor !important;
+}
+
+.mirror-publication-content a .MsoHyperlink,
+.mirror-publication-content a .MsoHyperlink span {
+  color: #ba0c2f !important;
+  text-decoration-color: #ba0c2f !important;
 }
 
 .mirror-publication-content table {

@@ -32,4 +32,4 @@ contents:
       - label: "Computation:"
         body: "Matched interface and boundary (MIB) methods; multidomain interface problems; wavelet local spectral methods; computational electromagnetics; computational fluid dynamics; Richtmyer-Meshkov instability; structural stability analysis."
       - label: "Physics and dynamics:"
-        body: "Nano-electronic devices; nanofluidic systems; quantum Boltzmann theory; transport theory; reaction rate theory; controlling chaos, turbulence, and pattern formation."
+        body: "Nano-electronic devices; nanofluidic systems; quantum Boltzmann theory; transport theory; reaction rate theory; controlling chaos; turbulence; and pattern formation."

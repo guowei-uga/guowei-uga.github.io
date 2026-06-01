@@ -26,15 +26,18 @@ nav_order: 2
   <li>Controlling chaos, turbulence, and pattern formation <a href="/assets/html/publications/cct.html">[Link]</a></li>
 </ul>
 
-<h2>Selected Research Resources</h2>
+<h2>Research Highlights and Media</h2>
 
 <ul>
-  <li>Persistent homology analysis of biomolecular data <a href="{{ '/assets/pdf/siam-news-persistent-homology.pdf' | relative_url }}">[Link]</a></li>
-  <li>Math and AI-based repositioning of existing drugs for COVID-19 <a href="{{ '/assets/pdf/siam-news-covid-drug-repositioning.pdf' | relative_url }}">[Link]</a></li>
-  <li>Topological artificial intelligence forecasting of future dominant viral variants <a href="https://www.siam.org/publications/siam-news/articles/topological-artificial-intelligence-forecasting-of-future-dominant-viral-variants/">[Link]</a></li>
-  <li>Characterizing musical sounds with topological data analysis <a href="{{ '/assets/pdf/siam-news-musical-sounds-tda.pdf' | relative_url }}">[Link]</a></li>
-  <li>Mathematics-assisted directed evolution and protein engineering <a href="{{ '/assets/pdf/siam-news-directed-evolution-protein-engineering.pdf' | relative_url }}">[Link]</a></li>
-  <li>Topological deep learning: an emerging paradigm in data science <a href="https://www.siam.org/publications/siam-news/articles/topological-deep-learning-an-emerging-paradigm-in-data-science/">[Link]</a></li>
+  <li>SIAM News 2016: Mathematical molecular bioscience and biophysics <a href="{{ '/assets/pdf/publications/siam-news/mathematical-molecular-bioscience-biophysics-2016.pdf' | relative_url }}">[Link]</a></li>
+  <li>SIAM News 2017: Persistent homology analysis of biomolecular data <a href="{{ '/assets/pdf/publications/siam-news/persistent-homology-biomolecular-data-2017.pdf' | relative_url }}">[Link]</a></li>
+  <li>SIAM News 2020: Math and AI-based repositioning of existing drugs for COVID-19 <a href="{{ '/assets/pdf/publications/siam-news/covid-drug-repositioning-2020.pdf' | relative_url }}">[Link]</a></li>
+  <li>SIAM News 2022: Topological artificial intelligence forecasting of future dominant viral variants <a href="https://www.siam.org/publications/siam-news/articles/topological-artificial-intelligence-forecasting-of-future-dominant-viral-variants/">[Link]</a></li>
+  <li>SIAM News 2023: Characterizing musical sounds with topological data analysis <a href="{{ '/assets/pdf/publications/siam-news/musical-sounds-tda-2023.pdf' | relative_url }}">[Link]</a></li>
+  <li>SIAM News 2023: Mathematics-assisted directed evolution and protein engineering <a href="{{ '/assets/pdf/publications/siam-news/directed-evolution-protein-engineering-2023.pdf' | relative_url }}">[Link]</a></li>
+  <li>SIAM News 2024: Topological deep learning: an emerging paradigm in data science <a href="https://www.siam.org/publications/siam-news/articles/topological-deep-learning-an-emerging-paradigm-in-data-science/">[Link]</a></li>
+  <li>SIAM News 2026: Commutative algebra meets data science: a new paradigm in mathematical artificial intelligence <a href="{{ '/assets/pdf/publications/siam-news/commutative-algebra-data-science-2026.pdf' | relative_url }}">[Link]</a></li>
+  <li>D3R Grand Challenge <a href="{{ '/assets/html/publications/d3r-grand-challenge.html' | relative_url }}">[Link]</a></li>
 </ul>
 
 <h2>Dedicated to those who lost their lives to the pandemic</h2>

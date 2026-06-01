@@ -1,20 +1,20 @@
 ---
 layout: page
-permalink: /repositories/
-title: Repositories
+permalink: /resources/
+title: Resources
 description:
 nav: true
 nav_order: 5
 ---
 
-## Data Library
+## Data Libraries
 
 <ul>
   <li><a href="/assets/html/repositories/data-library/2d.html">2D data library for chemical, biophysical, and biological information</a></li>
   <li><a href="/assets/html/repositories/data-library/3d.html">3D data library for chemical, biophysical, and biological information</a></li>
 </ul>
 
-## Software Packages
+## Software and Repositories
 
 <ul>
   <li><a href="http://weilab.math.msu.edu/MIBPB/">MIBPB</a>: Online server for electrostatic analysis using the second-order accurate Poisson-Boltzmann solver.</li>
@@ -34,4 +34,11 @@ nav_order: 5
   <li><a href="https://weilab.math.msu.edu/HERMES/">HERMES</a>: Open-source software package for simultaneous topological persistence and shape of data.</li>
   <li><a href="https://weilab.math.msu.edu/CCP">CCP</a>: Correlated Clustering and Projection for dimensionality reduction.</li>
   <li><a href="https://weilab.math.msu.edu/MVTDL/">TDL-FP</a>: Protein function prediction using topological deep learning.</li>
+</ul>
+
+## External Links
+
+<ul>
+  <li><a href="https://genealogy.math.ndsu.nodak.edu/">Mathematics Genealogy Project</a></li>
+  <li><a href="https://drugdesigndata.org/about/grand-challenge">Drug Design Data Resource Grand Challenge</a></li>
 </ul>

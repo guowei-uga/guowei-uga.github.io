@@ -40,8 +40,8 @@ I am Professor and GRA Eminent Scholar in Mathematics and Biochemistry & Molecul
           <h6 class="title font-weight-bold ml-1 ml-md-4">Professor and GRA Eminent Scholar</h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">University of Georgia, Athens, GA</h6>
           <ul class="items">
-            <li><span class="item">Mathematics</span></li>
-            <li><span class="item">Biochemistry & Molecular Biology</span></li>
+            <li><span class="item">Department of Mathematics</span></li>
+            <li><span class="item">Department of Biochemistry & Molecular Biology</span></li>
           </ul>
         </div>
       </div>
@@ -59,7 +59,6 @@ I am Professor and GRA Eminent Scholar in Mathematics and Biochemistry & Molecul
           <ul class="items">
             <li><span class="item">Department of Mathematics</span></li>
             <li><span class="item">Department of Biochemistry & Molecular Biology</span></li>
-            <li><span class="item">BioMolecular Science Gateway</span></li>
           </ul>
         </div>
       </div>
