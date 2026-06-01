@@ -58,7 +58,7 @@ I am Professor and GRA Eminent Scholar in Mathematics and Biochemistry & Molecul
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">Michigan State University, East Lansing, MI</h6>
           <ul class="items">
             <li><span class="item">Department of Mathematics</span></li>
-            <li><span class="item">Department of Biochemistry & Molecular Biology</span></li>
+            <li><span class="item">Department of Biochemistry and Molecular Biology</span></li>
           </ul>
         </div>
       </div>
