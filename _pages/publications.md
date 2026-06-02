@@ -45,6 +45,7 @@ nav_order: 2
 <ul>
   <li>Complete Pandemic-related Publication List <a href="/assets/html/publications/virus.html">[Link]</a></li>
   <li>SARS-CoV-2 Mutation Tracker <a href="/assets/html/publications/sars-cov-2-mutation-tracker.html">[Link]</a></li>
+  <li>SARS-CoV-2 Mutation Analyzer <a href="https://weilab.math.msu.edu/MutationAnalyzer/">[Link]</a></li>
   <li>Third-party YouTube video about our work on SARS-CoV-2 <a href="https://www.youtube.com/watch?v=_4k9Ovt-nm8">[Link]</a></li>
 </ul>
 
