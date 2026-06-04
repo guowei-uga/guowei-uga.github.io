@@ -567,6 +567,23 @@ a {
   font-size: 1.75rem;
 }
 
+.post article > .about-research-section a {
+  color: #4f5b66;
+  text-decoration: underline;
+  text-decoration-color: #b8c0c7;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.14em;
+
+  &::after {
+    display: none;
+  }
+
+  &:hover {
+    color: #{$uga-glory-red-color};
+    text-decoration-color: #{$uga-glory-red-color};
+  }
+}
+
 .post article > .news.cv > .card.mt-3 {
   margin-top: 0 !important;
 }

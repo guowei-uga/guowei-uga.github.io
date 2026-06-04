@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Computational Fluid Dynamics</title>
+  <link rel="stylesheet" href="/assets/css/research-interest-mirror.css">
+</head>
+<body class="mirror-research-page">
+  <header class="mirror-site-header">
+    <div class="mirror-site-header__inner">
+      <a class="mirror-site-title" href="/">Guo-Wei Wei</a>
+      <nav class="mirror-site-nav" aria-label="Research mirror navigation">
+        <a href="/">About</a>
+        <a href="/group/">Group</a>
+        <a href="/publications/">Publications</a>
+        <a href="/talks/">Talks</a>
+        <a href="/teaching/">Teaching</a>
+        <a href="/resources/">Resources</a>
+        <a href="/positions/">Positions</a>
+      </nav>
+    </div>
+  </header>
+  <main class="mirror-research-content">
+<h1>Computational Fluid Dynamics</h1>
+<div>
+<p>Wavelet basedlocal spectral element method (Method of finite subdomains) <br></p>
+
+<p>The widespead availablity of parallelcomputers and their potential for the numerical solution of difficult-to-solve partialdifferential equations have led to a large amount of research in domaindecomposition methods, especially in CFD, where many applications involvecomplex geometries. The wavelet essentially-non-dispersive (WEND) scheme isconstructed by using the Discrete Singular Convolution (DSC) algorithm, whichrequires as little as 2.2 point per wavelength (PPW) for flowsimulations. For complex geometry, a wavelet based new domain decomposition method is proposed usingpseudo-overlaping grids. We applied it to flows past a cylinder with 5subdomains: <br><img src="wan2.jpg"><br>A close-up view gives fine flow details: </p>
+
+<p><img src="wan1.jpg"></p>
+
+<p>An other example we studied is the steadyflow of a staggered lid-driven cavity: </p>
+
+<p><img src="s.gif"><img src="v.gif"></p>
+
+<p> Fig1. The streamline forRe=100 Fig2: The vorticity for Re=100</p>
+
+<p><strong>Here 5 subdomains are used forthe simulation.</strong></p>
+
+<p>Thelocal spectral WEND scheme is also used for computing the fluid flowpatterns in a buoyancy driven cavity for a very high Rayleigh number (Ra=10^8).Simulation at this parameter is very close to the transition of naturalconvection into a turbulent flow, which can be construed as a very tough testfor any numerical scheme. The conventional local methods have reportedlyproduced spurious oscillations. DSC spatial discretization could quiteaccurately simulate the fluid flow features devoid of all the negative effects.</p>
+
+<p><br></p>
+
+<p><br><br><br><br><br></p>
+
+<p><img src="a108.jpg"></p>
+
+<p>  Streamlines by DSC at Ra=10^8 <br><br><br><br></p>
+
+<p><strong>References:</strong><br></p>
+
+<p><strong>D.C. Wan, B.S.V. Patnaik and G.W. Wei, <a href="https://users.math.msu.edu/users/weig/PAPER/p59.pdf" target="_blank" rel="noopener">A new benchmark quality solution for the buoyancydriven cavity by discrete singular convolution</a>, Numer. Heat Transfer B -Fundamentals , 40 , 199-228 (2001).</strong></p>
+
+<p><strong>D.C. Wan, B.S.V. Patnaik and G.W. Wei, <a href="https://users.math.msu.edu/users/weig/PAPER/p79.pdf" target="_blank" rel="noopener">Discrete singular convolution-finite subdomain methodfor the solution of incompressible viscous flows,</a> J. Comput. Phys. 180,229-255 (2002).</strong></p>
+
+<p><strong>Y.C. Zhou, B. S. V. Patnaik, D.C. Wan andG. W. Wei, <a href="https://users.math.msu.edu/users/weig/PAPER/p87.pdf" target="_blank" rel="noopener">DSC solution for flow in a staggereddouble lid driven cavity,</a> Int. J. Numer. Methods in Engng. , 57, 211-234(2003).</strong></p>
+</div>
+  </main>
+</body>
+</html>

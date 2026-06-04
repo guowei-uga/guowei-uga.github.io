@@ -1,0 +1,194 @@
+html {
+  background: #ffffff;
+  font-size: 112.5%;
+}
+
+body.mirror-research-page {
+  background: #ffffff !important;
+  color: #111111 !important;
+  font-family: Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif !important;
+  line-height: 1.55 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.mirror-site-header {
+  background: #e4002b;
+  border-bottom: 1px solid #ba0c2f;
+  color: #ffffff;
+  font-family: Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+
+.mirror-site-header__inner {
+  align-items: center;
+  display: flex;
+  gap: 1.25rem;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1100px;
+  min-height: 60px;
+  padding: 0 1rem;
+}
+
+.mirror-site-title,
+.mirror-site-nav a {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.mirror-site-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.mirror-site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.mirror-site-nav a {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.mirror-site-nav a:hover {
+  text-decoration: underline !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 0.25rem !important;
+}
+
+.mirror-research-content {
+  box-sizing: border-box;
+  margin: 2.75rem auto 4rem;
+  max-width: 1100px;
+  padding: 0 1.5rem;
+}
+
+.mirror-research-content,
+.mirror-research-content p,
+.mirror-research-content div,
+.mirror-research-content span,
+.mirror-research-content li,
+.mirror-research-content td,
+.mirror-research-content th,
+.mirror-research-content a {
+  font-family: Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif !important;
+  line-height: 1.55 !important;
+}
+
+.mirror-research-content p,
+.mirror-research-content li,
+.mirror-research-content td,
+.mirror-research-content th {
+  color: #111111 !important;
+  font-size: 1rem !important;
+}
+
+.mirror-research-content p {
+  margin: 0 0 0.85rem !important;
+}
+
+.mirror-research-content p:empty,
+.mirror-research-content .mirror-empty-paragraph {
+  display: none !important;
+}
+
+.mirror-research-content h1,
+.mirror-research-content h2,
+.mirror-research-content h3,
+.mirror-research-content h4,
+.mirror-research-content h5,
+.mirror-research-content h6 {
+  color: #ba0c2f !important;
+  font-family: Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
+  margin: 1.75rem 0 1rem !important;
+}
+
+.mirror-research-content h1 {
+  font-size: 2.2rem !important;
+}
+
+.mirror-research-content h2 {
+  font-size: 1.65rem !important;
+}
+
+.mirror-research-content h3 {
+  font-size: 1.35rem !important;
+}
+
+.mirror-research-content a,
+.mirror-research-content a span,
+.mirror-research-content a strong,
+.mirror-research-content a em {
+  color: #ba0c2f !important;
+  text-decoration-color: #ba0c2f !important;
+}
+
+.mirror-research-content a:hover,
+.mirror-research-content a:hover span,
+.mirror-research-content a:hover strong,
+.mirror-research-content a:hover em {
+  color: #e4002b !important;
+  text-decoration-color: #e4002b !important;
+}
+
+.mirror-research-content p a + a {
+  margin-left: 0.75rem;
+}
+
+.mirror-research-content a:not([href]),
+.mirror-research-content a:not([href]) span,
+.mirror-research-content a:not([href]) strong,
+.mirror-research-content a:not([href]) em {
+  color: inherit !important;
+  cursor: default !important;
+  text-decoration: none !important;
+}
+
+.mirror-research-content img {
+  height: auto !important;
+  max-width: 100% !important;
+}
+
+.mirror-research-content table {
+  border-collapse: collapse !important;
+  margin: 1.25rem 0 !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.mirror-research-content td,
+.mirror-research-content th {
+  border: 1px solid #d7d7d7 !important;
+  padding: 0.55rem 0.65rem !important;
+  vertical-align: top !important;
+}
+
+.mirror-research-content th,
+.mirror-research-content tr:first-child td {
+  background: #f7f7f7 !important;
+  font-weight: 700 !important;
+}
+
+@media (max-width: 640px) {
+  .mirror-site-header__inner {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 0.8rem;
+    padding-top: 0.8rem;
+  }
+
+  .mirror-site-nav {
+    justify-content: flex-start;
+  }
+
+  .mirror-research-content {
+    margin-top: 2rem;
+    padding: 0 1rem;
+  }
+}

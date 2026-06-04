@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Richtmyer-Meshkov Instability</title>
+  <link rel="stylesheet" href="/assets/css/research-interest-mirror.css">
+</head>
+<body class="mirror-research-page">
+  <header class="mirror-site-header">
+    <div class="mirror-site-header__inner">
+      <a class="mirror-site-title" href="/">Guo-Wei Wei</a>
+      <nav class="mirror-site-nav" aria-label="Research mirror navigation">
+        <a href="/">About</a>
+        <a href="/group/">Group</a>
+        <a href="/publications/">Publications</a>
+        <a href="/talks/">Talks</a>
+        <a href="/teaching/">Teaching</a>
+        <a href="/resources/">Resources</a>
+        <a href="/positions/">Positions</a>
+      </nav>
+    </div>
+  </header>
+  <main class="mirror-research-content">
+<h1>Richtmyer-Meshkov Instability</h1>
+<div>
+<h2>Conjugate Filter OscillationReduction (CFOR) scheme for the 2D Richtmyer-Meshkov instability</h2>
+
+<p>(Yongcheng Zhou and Guowei Wei)</p>
+
+<p>Richtmyer-Meshkovinstability (RMI) refers to the instability occurs at an impulsively acceleratedinterface between two different gases. It differs from theRayleigh-Taylor instability for which the acceleration at the interface is aconstant, and from the Kelvin-Helmholtz instability which is due tothe shear stress between the two fluids at the interface. Richtmyer-Meshkovinstability is abundant and omnipresent in nature as well as technologicalapplications. The study of Richtmyer-Meshkov instability is of particularimportance to a large number of science and engineering applications, such asnuclear explosions, inertial confinement fusion (ICF) capsule implosions,supernova explosions, supersonic and hypersonic combustion in air breathingvehicles, flows in shock tubes, laser-matter interaction, to name only a few.<br></p>
+
+<p><img src="ICF.gif"><br>Numerical simulations are indispensable tools for estimating how the growthrate of the instability depends on a number of physical parameters, suchas the Mach number of the incident shock, the density difference of two gasfluids, the compressibility of the two fluids, the size, shape and initialperturbation of the interface. Accurate simulation of Richtmyer-Meshkovinstability is notoriously challenging. What is involved is theinteraction of shock and turbulence. It requires both high (spectral)resolution and ability of efficient shock capturing.</p>
+
+<p>Conjugate filter oscillationreduction (CFOR) scheme is constructed by using a wavelet-collocationscheme, the discretesingular convolution (DSC) filtersfor both spatial discretization of hyperbolic conservation law systems andoscillation suppression. The DSC algorithm is a local spectral method (LSM) which is essentially non-dispersive (END) with near 2point per wavelength (PPW) for solving PDEs. It has global (spectral)methods' accuracy and local methods' flexibility for handling boundaryand geometry. Both the theory of distribution and theory of wavelet analysisunderpin the DSC algorithm. Under the philosophy of the DSC algorithm, a largenumber of approximation kernels have been constructed and they have similarperformance. The DSC algorithm has been tested for a great variety of scienceand engineering computations.</p>
+
+<p>Some facts about theCFOR scheme that can be found in a <a href="https://users.math.msu.edu/users/weig/PAPER/p96.pdf" target="_blank" rel="noopener">JCP paper</a>:</p>
+
+<p>(1) A factor of 1,000,000 times more accurate than the standard 4th orderfinite difference scheme for wave propagations.</p>
+
+<p>(2) Unparallel reliability in long time integration. The error (L1 or L2)at t=100 is about 1/10,000,000 for the propagation of a 2D isentropic vortexgoverned by the Euler's equations.</p>
+
+<p>(3) Less than 3 points per wavelength (PPW) to resolve compressibleor incompressible waves governed by the Navier-Stokes or Euler'sequations.</p>
+
+<p>(4) Just 5 PPW to fully resolve the interaction of shock and oscillatoryentropy waves governed by Euler's equations.</p>
+
+<p>Preliminary results are obtained by using the CFOR scheme for anArgon-Xenon interface. The gases are assumed to be perfect and their motions aregoverned by the Euler equations. An initial incident shock propagating atMach 4.46 or Mach 10 impinges on a sinusoidally perturbed density gradient. Thedeformation of interface, accumulation of vortex roll-ups, formation of spikeand bubble, and onset of turbulence mixing are observed. At a later time, theburn out at the top of the mushroom indicates the upcoming inverse of crestsand troughs, which was observed in Jacobs' experiment at University of Arizona.<br></p>
+
+<p><img src="richtmyer-meshkov3.jpg"><br><img src="RMI3s.jpg"><br>Mach number 4.46, domain 5x1.8 cm^2, resolution 1024x512, time 5.0e-5second<br><br><br></p>
+
+<p><img src="RMI4s.jpg"><img src="richtmyer-meshkov4.jpg"><br>Mach number 4.46, domain 15x3.6 cm^2, resolution 768x256, time 1.4e-4 second<br><br></p>
+
+<p><img src="RMI6s.jpg"><img src="richtmyer-meshkov6.jpg"><br>Mack 10, t=1.2e-4<br><br></p>
+
+<p><img src="RMI8s.jpg"><img src="RMI8s.jpg"></p>
+
+<p>Mack 10, t=2.16e-4<br><br></p>
+
+<p><img src="tri22s.jpg"><br><img src="tri2.jpg"><br></p>
+
+<p>Mack 20, t=6.5e-5</p>
+
+<p><strong>Reference:</strong></p>
+
+<p>G.W. Wei, and Yun Gu, <a href="https://users.math.msu.edu/users/weig/PAPER/p81.pdf" target="_blank" rel="noopener">Conjugated filter approachfor solving Burger's equation,</a> J. Comput. Appl. Math., 149, 439-456 (2002).</p>
+
+<p>Yun Gu and G.W. Wei, <a href="https://users.math.msu.edu/users/weig/PAPER/p88.pdf" target="_blank" rel="noopener">Conjugated filter approachfor shock capturing,</a> Commun. Numer. Meth. Engng. , 19, 99-110(2003).</p>
+
+<p>Y.C. Zhou, Yun Gu and G.W. Wei, <a href="https://users.math.msu.edu/users/weig/PAPER/p92.pdf" target="_blank" rel="noopener">Shock-capturing withnatural high frequency oscillations,</a> Int. J. Numer. Methods inFluid, 41, 1319-1338 (2003).</p>
+
+<p>Y.C. Zhou and G.W. Wei, <a href="https://users.math.msu.edu/users/weig/PAPER/p96.pdf" target="_blank" rel="noopener">High-resolution conjugatefilters for the simulation of flows, </a> J. Comput. Phys., 189,150-179 (2003).<br></p>
+
+<p><strong>Links:</strong></p>
+
+<p><a href="http://info-center.ccit.arizona.edu/%7Efluidlab/projects.html" target="_blank" rel="noopener">Jacobs'sweb page</a></p>
+
+<p><a href="http://images.google.com/images?q=richtmyer-meshkov&amp;ie=ISO-8859-1&amp;hl=en" target="_blank" rel="noopener">Imagesby Google</a><br><br></p>
+</div>
+  </main>
+</body>
+</html>

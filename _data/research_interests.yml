@@ -2,34 +2,116 @@ contents:
   - title: Mathematical Foundations of Biosciences
     items:
       - label: "Biomolecular modeling:"
-        body: "Differential geometry-based solvation models; geometric algebra-based docking; persistent topology of biomolecules; variational multiscale models for ion channel transport; DFT of proton transport; curvature-based biomolecular surfaces; multiscale virus capsid modeling; geometric modeling of protein complexes."
+        body: >-
+          [Differential geometry-based solvation models](/assets/pdf/research-interests/solvation-models.pdf);
+          [geometric algebra-based docking](/assets/pdf/research-interests/geometric-algebra-docking.pdf);
+          [persistent topology of biomolecules](/assets/pdf/research-interests/persistent-topology-biomolecules.pdf);
+          [variational multiscale models for ion channel transport](/assets/pdf/research-interests/ion-channel-transport.pdf);
+          [DFT of proton transport](/assets/pdf/research-interests/dft-proton-transport.pdf);
+          [curvature-based biomolecular surfaces](/assets/pdf/research-interests/curvature-biomolecular-surfaces.pdf);
+          [multiscale virus capsid modeling](/assets/pdf/research-interests/multiscale-virus-capsid.pdf);
+          [geometric modeling of protein complexes](/assets/pdf/research-interests/geometric-protein-complexes.pdf).
       - label: "Protein and genomic systems:"
-        body: "Mechanoelectrical transducers; flexibility-rigidity index (FRI) for proteins; stochastic B-factor prediction; electrostatic binding analysis; Reeb graph-based protein pocket detection; genomic data; geometric topology modeling; Mayer topology modeling; topological phylogenetics."
+        body: >-
+          [Mechanoelectrical transducers](/assets/pdf/research-interests/mechanoelectrical-transducers.pdf);
+          [flexibility-rigidity index (FRI) for proteins](/assets/pdf/research-interests/fri-proteins.pdf);
+          [stochastic B-factor prediction](/assets/pdf/research-interests/stochastic-b-factor.pdf);
+          [electrostatic binding analysis](/assets/pdf/research-interests/electrostatic-binding.pdf);
+          [Reeb graph-based protein pocket detection](http://weilab.math.msu.edu/PPD/);
+          [genomic data](https://doi.org/10.1016/j.compbiomed.2021.104264);
+          [Cahn-Hilliard for mitochondria](https://doi.org/10.3390/app11052071);
+          [geometric algebra for protein modeling](https://doi.org/10.1098/rsif.2022.0117);
+          [geometric topology modeling](https://doi.org/10.1073/pnas.2408431121);
+          [Mayer topology modeling](https://doi.org/10.3934/fods.2024032);
+          [topological phylogenetics](https://arxiv.org/abs/2412.20202).
 
   - title: Mathematical Foundations of AI and Data Science
     items:
       - label: "Topology and geometry:"
-        body: "Topological data analysis; topological deep learning; topological learning; persistent spectral graph; persistent Laplacian; persistent sheaf, path, hyperdigraph, Mayer, and Dirac methods; persistent commutative algebra."
+        body: >-
+          [Mathematical representations of data](/assets/pdf/research-interests/data-representation.pdf);
+          [topological data analysis](/assets/pdf/research-interests/persistent-homology.pdf);
+          [topological deep learning](/assets/pdf/research-interests/topological-deep-learning.pdf);
+          [combinatorial commutative algebra](https://doi.org/10.3934/fods.2025009);
+          [topological learning](/assets/pdf/research-interests/topological-learning.pdf);
+          [evolutionary de Rham-Hodge theory](/assets/pdf/research-interests/evolutionary-de-rham-hodge.pdf);
+          [persistent spectral graph](https://onlinelibrary.wiley.com/doi/full/10.1002/cnm.3376);
+          [persistent Laplacian](https://doi.org/10.3934/fods.2021006);
+          [homotopy continuation](https://doi.org/10.3934/fods.2021017);
+          [unified topological approach](https://arxiv.org/abs/2103.16926);
+          [persistent sheaf Laplacians](https://doi.org/10.3934/fods.2024033);
+          [path methods](https://doi.org/10.1021/acs.jpclett.2c03706);
+          [persistent hyperdigraph methods](https://doi.org/10.3934/fods.2023010);
+          [Mayer methods](https://doi.org/10.3934/fods.2024032);
+          [persistent Dirac methods](https://doi.org/10.3934/fods.2024001);
+          [persistent commutative algebra](https://doi.org/10.3934/fods.2025009).
       - label: "Machine learning:"
-        body: "Generative network complex; graph neural networks; multiscale manifold regularization; machine learning; multitask learning; autoencoders; transformers; UMAP-assisted K-means clustering; dimensionality reduction; interaction topology."
+        body: >-
+          [Generative network complex](/assets/pdf/research-interests/generative-network-complex.pdf);
+          [graph neural networks](/assets/pdf/research-interests/graph-neural-network.pdf);
+          [multiscale manifold regularization](/assets/pdf/research-interests/multiscale-manifold-regularization.pdf);
+          [machine learning](/assets/pdf/research-interests/machine-learning.pdf);
+          [multitask learning](https://doi.org/10.1371/journal.pcbi.1005690);
+          [autoencoders](https://doi.org/10.1021/acs.jcim.0c00599);
+          [transformers](https://doi.org/10.1038/s41467-021-23720-w);
+          [UMAP-assisted K-means clustering](https://doi.org/10.1016/j.compbiomed.2021.104264);
+          [dimensionality reduction](https://arxiv.org/abs/2206.04189);
+          [CCP dimension reduction](/assets/img/research-interests/ccp-dimension-reduction.png);
+          [interaction topology](https://doi.org/10.3934/fods.2025011);
+          [persistent Jones polynomial](https://doi.org/10.3934/math.2025068);
+          [persistent Khovanov homology](https://doi.org/10.3934/math.20241277);
+          [Topo2seqTransformer](/assets/pdf/research-interests/topo2seq-transformer.pdf).
 
   - title: Drug Discovery, Bioinformatics, and Quantitative Systems Pharmacology
     items:
       - label: "Molecular prediction:"
-        body: "Protein-ligand binding affinity; pose prediction; MathDL; virtual screening; partition coefficient; solubility; toxicity; scoring, ranking, docking, and screening."
+        body: >-
+          [Protein-ligand binding affinity](/assets/pdf/research-interests/protein-ligand-binding-affinity.pdf);
+          [pose prediction](/assets/pdf/research-interests/pose-prediction.pdf);
+          [MathDL](/assets/pdf/research-interests/mathdl.pdf);
+          [virtual screening](https://doi.org/10.1371/journal.pcbi.1005929);
+          [partition coefficient](https://doi.org/10.1002/jcc.25213);
+          [solubility](https://doi.org/10.1002/jcc.25213);
+          [toxicity](https://doi.org/10.1021/acs.jcim.7b00558);
+          [scoring, ranking, docking, and screening](https://doi.org/10.1021/acs.jcim.9b00334).
       - label: "Mutation and drug design:"
-        body: "Protein folding stability changes upon mutation; protein-protein binding affinity; genotyping; automated generation of drug-like molecules; proteome-informed AI for drug adduction; deep mutational scanning; multiscale transformers."
+        body: >-
+          [Protein folding stability changes upon mutation](https://doi.org/10.1093/bioinformatics/btx460);
+          [protein-protein binding affinity](https://doi.org/10.1038/s42256-020-0149-6);
+          [genotyping](https://doi.org/10.1021/acs.jcim.0c00501);
+          [automated generation of drug-like molecules](https://doi.org/10.1021/acs.jcim.0c00599);
+          [proteome-informed AI for drug adduction](https://doi.org/10.1021/acs.jpclett.1c03133);
+          [deep mutational scanning](https://doi.org/10.1016/j.compbiomed.2023.107258);
+          [multiscale transformers](https://doi.org/10.1038/s42256-024-00855-1).
 
   - title: Mathematical Virology and Biomedical Engineering
     items:
       - label: "Virology:"
-        body: "Virus evolution, infectivity, vaccine breakthrough, and antibody resistance."
+        body: >-
+          [Virus evolution, infectivity, vaccine breakthrough, and antibody resistance](/assets/html/publications/virus.html).
       - label: "Imaging and engineering:"
-        body: "Geometric flow approaches to images and surfaces; PDE transform; image edge analysis by coupled PDEs; bioluminescence tomography."
+        body: >-
+          [Geometric flow approaches to images and surfaces](/assets/pdf/research-interests/highorder-pde-images-surfaces.pdf);
+          [PDE transform](/assets/pdf/research-interests/pde-transform.pdf);
+          [image edge analysis by coupled PDEs](/assets/html/research-interests/image-edge-analysis.html);
+          [bioluminescence tomography](/assets/pdf/research-interests/bioluminescence-tomography.pdf).
 
   - title: Numerical Methods, Materials, and Dynamical Systems
     items:
-      - label: "Computation:"
-        body: "Matched interface and boundary (MIB) methods; multidomain interface problems; wavelet local spectral methods; computational electromagnetics; computational fluid dynamics; Richtmyer-Meshkov instability; structural stability analysis."
+      - label: "Wavelet local spectral methods and applications:"
+        body: >-
+          [Matched interface and boundary (MIB) methods](/assets/pdf/research-interests/mib-methods.pdf);
+          [multidomain interface problems](/assets/pdf/research-interests/multidomain-interface-problems.pdf); [computational electromagnetics](https://doi.org/10.1016/j.jcp.2004.03.008);
+          [computational fluid dynamics](/assets/html/research-interests/computational-fluid-dynamics.html);
+          [Richtmyer-Meshkov instability](/assets/html/research-interests/richtmyer-meshkov-instability.html);
+          [structural stability analysis](/assets/html/research-interests/structural-stability-analysis.html).
       - label: "Physics and dynamics:"
-        body: "Nano-electronic devices; nanofluidic systems; quantum Boltzmann theory; transport theory; reaction rate theory; controlling chaos; turbulence; and pattern formation."
+        body: >-
+          [Nano-electronic devices](/assets/pdf/research-interests/nano-electronic-devices.pdf);
+          [nanofluidic systems](/assets/pdf/research-interests/nanofluidic-systems.pdf);
+          [quantum Boltzmann theory](https://doi.org/10.1063/1.472167);
+          [transport theory](https://doi.org/10.1063/1.472176);
+          [reaction rate theory](https://doi.org/10.1063/1.473294);
+          [controlling chaos](/assets/html/research-interests/controlling-chaos.html);
+          [controlling turbulence](/assets/html/research-interests/controlling-turbulence.html);
+          [controlling pattern formation](https://doi.org/10.1016/s0167-2789(02)00737-6).
