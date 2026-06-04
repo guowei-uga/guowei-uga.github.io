@@ -29,14 +29,14 @@ nav_order: 2
 <h2>Research Highlights and Media</h2>
 
 <ul>
-  <li>SIAM News 2016: Mathematical molecular bioscience and biophysics <a href="{{ '/assets/pdf/publications/siam-news/mathematical-molecular-bioscience-biophysics-2016.pdf' | relative_url }}">[Link]</a></li>
-  <li>SIAM News 2017: Persistent homology analysis of biomolecular data <a href="{{ '/assets/pdf/publications/siam-news/persistent-homology-biomolecular-data-2017.pdf' | relative_url }}">[Link]</a></li>
-  <li>SIAM News 2020: Math and AI-based repositioning of existing drugs for COVID-19 <a href="{{ '/assets/pdf/publications/siam-news/covid-drug-repositioning-2020.pdf' | relative_url }}">[Link]</a></li>
+  <li>SIAM News 2016: Mathematical molecular bioscience and biophysics <a href="https://www.siam.org/publications/siam-news/articles/mathematical-molecular-bioscience-and-biophysics/">[Link]</a></li>
+  <li>SIAM News 2017: Persistent homology analysis of biomolecular data <a href="https://www.siam.org/publications/siam-news/articles/persistent-homology-analysis-of-biomolecular-data/">[Link]</a></li>
+  <li>SIAM News 2020: Math and AI-based repositioning of existing drugs for COVID-19 <a href="https://www.siam.org/publications/siam-news/articles/math-and-ai-based-repositioning-of-existing-drugs-for-covid-19/">[Link]</a></li>
   <li>SIAM News 2022: Topological artificial intelligence forecasting of future dominant viral variants <a href="https://www.siam.org/publications/siam-news/articles/topological-artificial-intelligence-forecasting-of-future-dominant-viral-variants/">[Link]</a></li>
-  <li>SIAM News 2023: Characterizing musical sounds with topological data analysis <a href="{{ '/assets/pdf/publications/siam-news/musical-sounds-tda-2023.pdf' | relative_url }}">[Link]</a></li>
-  <li>SIAM News 2023: Mathematics-assisted directed evolution and protein engineering <a href="{{ '/assets/pdf/publications/siam-news/directed-evolution-protein-engineering-2023.pdf' | relative_url }}">[Link]</a></li>
+  <li>SIAM News 2023: Characterizing musical sounds with topological data analysis <a href="https://www.siam.org/publications/siam-news/articles/characterizing-musical-sounds-with-topological-data-analysis/">[Link]</a></li>
+  <li>SIAM News 2023: Mathematics-assisted directed evolution and protein engineering <a href="https://www.siam.org/publications/siam-news/articles/mathematics-assisted-directed-evolution-and-protein-engineering/">[Link]</a></li>
   <li>SIAM News 2024: Topological deep learning: an emerging paradigm in data science <a href="https://www.siam.org/publications/siam-news/articles/topological-deep-learning-an-emerging-paradigm-in-data-science/">[Link]</a></li>
-  <li>SIAM News 2026: Commutative algebra meets data science: a new paradigm in mathematical artificial intelligence <a href="{{ '/assets/pdf/publications/siam-news/commutative-algebra-data-science-2026.pdf' | relative_url }}">[Link]</a></li>
+  <li>SIAM News 2026: Commutative algebra meets data science: a new paradigm in mathematical artificial intelligence <a href="https://www.siam.org/publications/siam-news/articles/commutative-algebra-meets-data-science-a-new-paradigm-in-mathematical-artificial-intelligence/">[Link]</a></li>
   <li>D3R Grand Challenge <a href="{{ '/assets/html/publications/d3r-grand-challenge.html' | relative_url }}">[Link]</a></li>
 </ul>
 
