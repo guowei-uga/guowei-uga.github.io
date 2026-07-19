@@ -24,8 +24,6 @@ news: false
 selected_papers: false
 social: false
 ---
-I am Professor and GRA Eminent Scholar in Mathematics and Biochemistry & Molecular Biology at the University of Georgia. My research centers on a relatively young field known as mathematical molecular bioscience and biophysics, with work that overlaps with biochemistry and molecular biology, electrical and computer engineering, artificial intelligence, data science, drug discovery, bioinformatics, quantitative systems pharmacology, mathematical virology, biomedical imaging, high-order interface methods, nano modeling, quantum kinetic theory, wavelet local spectral methods, and dynamical systems.
-
 <section class="about-appointments cv">
   <h2>Appointments and Affiliations</h2>
   <ul class="card-text font-weight-light list-group list-group-flush">
