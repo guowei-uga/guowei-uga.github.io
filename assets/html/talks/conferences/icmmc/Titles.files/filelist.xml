@@ -1,6 +1,1 @@
-<xml xmlns:o="urn:schemas-microsoft-com:office:office">
- <o:MainFile HRef="../Titles.htm"/>
- <o:File HRef="themedata.thmx"/>
- <o:File HRef="colorschememapping.xml"/>
- <o:File HRef="filelist.xml"/>
-</xml>
+<xml xmlns:o="urn:schemas-microsoft-com:office:office"> <o:MainFile HRef="../Titles.htm"/> <o:File HRef="themedata.thmx"/> <o:File HRef="colorschememapping.xml"/> <o:File HRef="filelist.xml"/> </xml>

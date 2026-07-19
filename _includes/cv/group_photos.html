@@ -1,8 +1,0 @@
-<div class="group-photo-grid">
-  {% for photo in site.data.group_photos %}
-    <a class="group-photo-card" href="{{ '/assets/img/group/' | append: photo.image | relative_url }}">
-      <img src="{{ '/assets/img/group/' | append: photo.image | relative_url }}" alt="Wei group photo {{ photo.year }}" loading="lazy">
-      <span>{{ photo.year }}</span>
-    </a>
-  {% endfor %}
-</div>
