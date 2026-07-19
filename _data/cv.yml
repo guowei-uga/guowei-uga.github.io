@@ -1,24 +1,9 @@
-- title: Recent Grant Support
-  type: list
-  contents:
-    - National Institute of Health (NIGMS, NIAID)
-    - National Science Foundation (DMS, CISE, DGE)
-    - Department of Energy (DOE)
-    - Defense Advanced Research Projects Agency (DARPA)
-    - National Aeronautics and Space Administration (NASA)
-    - Bristol-Myers Squibb
-    - Pfizer
-    - Michigan Economic Development Corporation
-    - George Mason University
-    - MSU Foundation
-    - COVID-19 High Performance Computing Consortium
-
 - title: Students, Postdocs, and Visiting Scholars
   type: list
   contents:
-    - Currently 8 Ph.D. candidates, 5 research associates, 2 undergraduate research students, and 2 high school students.
-    - Graduated 27 Ph.D. students.
-    - Graduated 11 MSc students.
+    - Currently 8 Ph.D. candidates, 7 research associates, 1 undergraduate research student, and 2 high school students.
+    - Graduated 31 Ph.D. students.
+    - Graduated 14 MSc students.
     - Advised 65 undergraduate research students.
     - Supported 30 postdoctoral associates.
     - Supported 29 visiting scholars.

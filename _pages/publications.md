@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 description:
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 <div class="publications">
 
@@ -13,6 +13,7 @@ nav_order: 2
   <a href="https://scholar.google.com/citations?user=If_mksUAAAAJ&hl=en">Google Scholar profile</a>.
 </p>
 
+{% comment %}
 <h2>Publication Lists by Category</h2>
 
 <ul>
@@ -25,6 +26,7 @@ nav_order: 2
   <li>Nano and material sciences <a href="/assets/html/publications/ns.html">[Link]</a></li>
   <li>Controlling chaos, turbulence, and pattern formation <a href="/assets/html/publications/cct.html">[Link]</a></li>
 </ul>
+{% endcomment %}
 
 <h2>Research Highlights and Media</h2>
 

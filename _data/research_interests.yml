@@ -1,7 +1,7 @@
 contents:
   - title: Mathematical Foundations of AI and Data Science
     items:
-      - label: "Topology and geometry:"
+      - label: "Topology, geometry, and algebra:"
         body: >-
           [Mathematical representations of data](/assets/pdf/research-interests/data-representation.pdf);
           [topological data analysis](/assets/pdf/research-interests/persistent-homology.pdf);

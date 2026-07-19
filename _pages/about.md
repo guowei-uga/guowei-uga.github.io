@@ -5,7 +5,7 @@ permalink: /
 subtitle: |
   Professor and GRA Eminent Scholar
   Mathematics; Biochemistry & Molecular Biology
-  University of Georgia, Cedar Street Building D, Athens, GA 30602, USA
+  University of Georgia, 424 Cedar Street Building D, Athens, GA 30602, USA
   Contact: <a href="mailto:guowei.wei@uga.edu">guowei.wei[at]uga[dot]edu</a>
 
 profile:
@@ -48,7 +48,7 @@ social: false
       <div class="row align-items-start">
         <div class="col-12 col-md-auto text-center cv-year-col">
           <div class="cv-year-wrap">
-            <span class="badge font-weight-bold danger-color-dark cv-year-badge">Former</span>
+            <span class="badge font-weight-bold danger-color-dark cv-year-badge">2002 - 2026</span>
           </div>
         </div>
         <div class="col mt-2 mt-md-0">
